@@ -9,8 +9,8 @@ I think that flower classification is a good starter problem for computer vision
 Ultimately, the goal is to show how Spark-based CNNs can be applied to real-world image classification problems, while preparing the foundation for more complex medical imaging tasks.
 
 # Key Features
-## Data Preprocessing
 **Note:** both scripts mentioned below can be found in the sparkFlowerClassification code file.
+## Data Preprocessing
 ### preprocess.py script
 - Extracts image file paths and labels from the Flowers Recognition dataset.
 - Creates a Spark DataFrame with shuffled samples.

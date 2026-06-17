@@ -1,4 +1,4 @@
-# Predicting Cardiovascular Disease Risk Using Spark-Based Classification
+# Flower Image Classification Using Spark-Based Convolutional Neural Networks
 This project explores the use of distributed deep learning with Apache Spark to classify flower images using Convolutional Neural Networks (CNNs). Image classification is a core task in computer vision, and CNNs are well-suited for learning hierarchical features directly from raw image data. By integrating Spark into this workflow, the project demonstrates how distributed computing can accelerate large-scale image preprocessing and model training across multiple virtual machines
 
 I am using the publicly available Kaggle Dataset [Flowers Recognition]([url](https://www.kaggle.com/datasets/alxmamaev/flowers-recognition?select=flowers)), which contains thousands of images across five categories: daisy, dandelion, rose, sunflower, and tulip. The project highlights the integration of Spark with deep learning libraries to handle big image data efficiently, while also serving as a stepping stone toward my final project on pneumonia detection from X-ray images.
@@ -10,6 +10,7 @@ Ultimately, the goal is to show how Spark-based CNNs can be applied to real-worl
 
 # Key Features
 ## Data Preprocessing
+**Note:** both scripts mentioned below can be found in the sparkFlowerClassification code file.
 ### preprocess.py script
 - Extracts image file paths and labels from the Flowers Recognition dataset.
 - Creates a Spark DataFrame with shuffled samples.
@@ -51,6 +52,3 @@ Reference: Kaggle. (2021). Flower Recognition Dataset [Dataset]. Retrieved from 
 - Python 3.x
 - Apache Spark installed on all VMs
 - PySpark, NumPy, Pandas
-
-# Team Members
-- Olivia Gette
